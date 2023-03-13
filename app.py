@@ -39,7 +39,7 @@ def user_report():
 
 
 user_data = user_report()
-st.header('Air Quality Data Data')
+st.header('Air Quality Data')
 st.write(user_data)
 
 aqi = model.predict(user_data)
